@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    border: 0;
+    margin: 0;
+}
+
+header {
+    background: #242424;
+    color: #fff;
+    padding-top: 2px;
+    height: 130px;
+}
+
+header .branding h1 img {
+    white-space: nowrap;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-left: 10px;
+    width: 10%;
+}
+
+header .branding h1 span {
+    font-family: monospace, monospace;
+    position: absolute;
+    top: 30px;
+    left: 75px;
+}
+
+header .nav {
+    position: absolute;
+    text-align: right;
+    vertical-align: middle;
+    top: 44px;
+    right: 20px;
+}
+
+header .nav button {
+    height: 50px;
+    background: #242424;
+    border: none;
+    color: #d90d4e;
+    font-size: 40px;
+}
+
+header .nav button:hover {
+    cursor: pointer;
+}
+
+.intro img {
+    width: 100%;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    -moz-filter: blur(3px);
+    -o-filter: blur(3px);
+    -ms-filter: blur(3px);
+}
+
+.intro .text {
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    top: 250px;
+    background: #fff5ff;
+}
+
+.section1 {
+    background: #242424;
+    height: 300px;
+}
